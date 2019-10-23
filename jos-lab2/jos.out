@@ -1,0 +1,36 @@
+*** Now run 'make gdb'.
+***
+c[?7l[2J[0mSeaBIOS (version rel-1.12.1-0-ga5cab58e9a3f-prebuilt.qemu.org)
+
+
+iPXE (http://ipxe.org) 00:03.0 C980 PCI2.10 PnP PMM+07F91410+07EF1410 C980
+Press Ctrl-B to configure iPXE (PCI 00:03.0)...                                                                               
+
+
+Booting from Hard Disk..6828 decimal is 15254 octal!
+Physical memory: 131072K available, base = 640K, extended = 130432K
+boot_alloc memory at f0118000, next memory allocate at f0119000
+boot_alloc memory at f0119000, next memory allocate at f0159000
+boot_alloc memory at f0159000, next memory allocate at f0159000
+boot_alloc memory at f0159000, next memory allocate at f0159000
+check_page_free_list() succeeded!
+page_alloc: out of free memory
+page_alloc: out of free memory
+check_page_alloc() succeeded!
+page_alloc: out of free memory
+page_alloc: out of free memory
+page_alloc: out of free memory
+page_alloc: out of free memory
+page_alloc: out of free memory
+page_alloc: out of free memory
+check_page() succeeded!
+check_kern_pgdir() succeeded!
+boot_alloc memory at f0159000, next memory allocate at f0159000
+check_page_free_list() succeeded!
+check_page_installed_pgdir() succeeded!
+Welcome to the JOS kernel monitor!
+Type 'help' for a list of commands.
+6828 decimal is 15254 octal!
+He110 World
+x=3 y=-267300932
+qemu-system-i386: terminating on signal 15 from pid 13659 (make)
